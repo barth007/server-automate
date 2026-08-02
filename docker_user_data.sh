@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euo pipeline
+set -euo pipefail
 echo "Updating System"
 sudo yum update -y 
 
